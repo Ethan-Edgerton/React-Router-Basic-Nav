@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 const Navigation = () => {
   return (
@@ -6,13 +8,14 @@ const Navigation = () => {
       <div className="App">
         <h1>React Router Mini</h1>
         <div>
-          <a href="">Home</a>
+          {/* Link is grabbing the hook/pathway that Route created and making an anchor/link */}
+          <Link to="/" href="">Home</Link>
         </div>
         <div>
-          <a href="">About</a>
+          <Link to="/about" href="">About</Link>
         </div>
         <div>
-          <a href="">Contact</a>
+          <Link to="/contact" href="">Contact</Link>
         </div>
       </div>
     </div>
