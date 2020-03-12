@@ -1,0 +1,22 @@
+.home {
+    color:rgb(35, 35, 212);
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.contact {
+    color:rgb(2, 168, 2);
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.about {
+    color:rgb(255, 153, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+/* why does styling h1 effect all h1s if style.css is only imported to one Component*/
